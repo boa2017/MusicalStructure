@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Orpheus Player</string>
+    <string name="artists">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="desc1">"This is the main screen of the app, the one that the user sees when he/she opens the application.
+        \n The structure contains one Imageview as a cover, and three textviews, one for each activity.
+        \n If you click in any of the Textviews, you will be forwarded to a new screen."</string>
+    <string name="desc2">"This"</string>
+    <string name="desc3">"This is the activity where all the info about the artist would be. For this activity, I'm only showing the structure, not the real info. It would include a picture and a little bio with some professional data".</string>
+    <string name="desc4">"This activity"</string>
+    <string name="song1">Lady of the Deep Forest</string>
+    <string name="song2">Lost in love</string>
+    <string name="song3">Family Conversations</string>
+    <string name="title1">Beautiful Open Spaces Trio Tracks</string>
+    <string name="title2">Bien à l\'ouest</string>
+    <string name="title3">Curiosity</string>
+    <string name="title4">deals, ideas, ideals</string>
+    <string name="artist1">Ash Turner</string>
+    <string name="artist2">Byzance Nord</string>
+    <string name="artist3">Lobo Loco</string>
+    <string name="artist4">Assif Tsahar</string>
+    <string name="bio1">XXXXXXXX</string>
+    <string name="bio2">XXXXXXXX</string>
+    <string name="bio3">XXXXXXXX</string>
+    <string name="bio4">XXXXXXXX</string>
+</resources>
+
+

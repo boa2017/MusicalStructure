@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/antique"
+    tools:context="com.example.android.musicalstructure.SongsActivity">
+
+    <TextView
+        android:id="@+id/song1"
+        style="@style/songs"
+        android:layout_toEndOf="@+id/play1"
+        android:layout_toRightOf="@+id/play1"
+        android:text="@string/song1"
+        android:onClick="playing"/>
+
+    <Button
+        android:id="@+id/play1"
+        style="@style/plays"
+        android:background="@drawable/play"
+        android:layout_alignTop="@+id/song1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/song2"
+        style="@style/songs"
+        android:layout_below="@+id/song1"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/play2"
+        android:layout_toRightOf="@+id/play2"
+        android:text="@string/song2" />
+
+    <Button
+        android:id="@+id/play2"
+        style="@style/plays"
+        android:layout_alignLeft="@+id/play1"
+        android:layout_alignTop="@+id/song2"
+        android:background="@drawable/play" />
+
+    <TextView
+        android:id="@+id/song3"
+        style="@style/songs"
+        android:layout_below="@+id/play2"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/play3"
+        android:layout_toRightOf="@+id/play3"
+        android:text="@string/song3" />
+
+    <Button
+        android:id="@+id/play3"
+        style="@style/plays"
+        android:layout_alignLeft="@+id/play2"
+        android:layout_alignTop="@+id/song3"
+        android:background="@drawable/play"/>
+
+    <TextView
+        android:id="@+id/desc4"
+        style="@style/desc4"
+        android:layout_below="@id/play3"
+        android:text="@string/desc4" />
+</RelativeLayout>

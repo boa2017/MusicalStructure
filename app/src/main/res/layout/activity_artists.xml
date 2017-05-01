@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/antique"
+    tools:context="com.example.android.musicalstructure.ArtistsActivity">
+
+    <ImageView
+        android:id="@+id/avatar1"
+        style="@style/avatars"
+        android:src="@drawable/avatar1" />
+
+    <TextView
+        android:id="@+id/bio1"
+        style="@style/bios"
+        android:layout_alignTop="@+id/avatar1"
+        android:layout_toEndOf="@+id/avatar1"
+        android:layout_toRightOf="@+id/avatar1"
+        android:text="@string/bio1" />
+
+    <ImageView
+        android:id="@+id/avatar2"
+        style="@style/avatars"
+        android:layout_below="@+id/avatar1"
+        android:src="@drawable/avatar2" />
+
+    <TextView
+        android:id="@+id/bio2"
+        style="@style/bios"
+        android:layout_alignTop="@+id/avatar2"
+        android:layout_toEndOf="@+id/avatar2"
+        android:layout_toRightOf="@+id/avatar2"
+        android:text="@string/bio2" />
+
+    <ImageView
+        android:id="@+id/avatar3"
+        style="@style/avatars"
+        android:layout_below="@+id/avatar2"
+        android:src="@drawable/avatar3" />
+
+    <TextView
+        android:id="@+id/bio3"
+        style="@style/bios"
+        android:layout_alignTop="@+id/avatar3"
+        android:layout_toEndOf="@+id/avatar3"
+        android:layout_toRightOf="@+id/avatar3"
+        android:text="@string/bio3" />
+
+    <ImageView
+        android:id="@+id/avatar4"
+        style="@style/avatars"
+        android:layout_below="@+id/avatar3"
+        android:src="@drawable/avatar4" />
+
+    <TextView
+        android:id="@+id/bio4"
+        style="@style/bios"
+        android:layout_alignTop="@+id/avatar4"
+        android:layout_toEndOf="@+id/avatar4"
+        android:layout_toRightOf="@+id/avatar4"
+        android:text="@string/bio4" />
+
+    <TextView
+        android:id="@+id/desc3"
+        style="@style/desc3"
+        android:layout_below="@id/avatar4"
+        android:text="@string/desc3" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <ImageView
+        android:id="@+id/header"
+        style="@style/header"
+        android:src="@drawable/violin" />
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/options"
+        android:layout_below="@id/header"
+        android:text="@string/artists" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/options"
+        android:layout_below="@id/artists"
+        android:text="@string/albums" />
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/options"
+        android:layout_below="@id/albums"
+        android:text="@string/songs" />
+
+    <TextView
+        android:id="@+id/desc1"
+        style="@style/desc1"
+        android:layout_below="@id/songs"
+        android:text="@string/desc1" />
+
+</RelativeLayout>
