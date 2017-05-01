@@ -12,37 +12,37 @@
         style="@style/songs"
         android:layout_toEndOf="@+id/play1"
         android:layout_toRightOf="@+id/play1"
-        android:text="@string/song1"
-        android:onClick="playing"/>
+        android:onClick="playing"
+        android:text="@string/song1" />
 
     <Button
         android:id="@+id/play1"
         style="@style/plays"
-        android:background="@drawable/play"
-        android:layout_alignTop="@+id/song1"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/song1"
+        android:background="@drawable/play" />
 
     <Button
         android:id="@+id/stop1"
         style="@style/stops"
-        android:background="@drawable/stop"
-        android:layout_marginRight="67dp"
-        android:layout_marginEnd="67dp"
-        android:layout_alignTop="@+id/song1"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="stopping"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/song1"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/stop"
+        android:onClick="stopping" />
 
 
     <TextView
         android:id="@+id/song2"
         style="@style/songs"
-        android:layout_marginTop="19dp"
-        android:text="@string/song2"
         android:layout_below="@+id/play1"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/play2"
         android:layout_toRightOf="@+id/play2"
-        android:layout_toEndOf="@+id/play2" />
+        android:text="@string/song2" />
 
     <Button
         android:id="@+id/play2"
@@ -54,11 +54,11 @@
     <Button
         android:id="@+id/stop2"
         style="@style/stops"
-        android:background="@drawable/stop"
         android:layout_alignBaseline="@+id/song2"
         android:layout_alignBottom="@+id/song2"
         android:layout_alignLeft="@+id/stop1"
-        android:layout_alignStart="@+id/stop1" />
+        android:layout_alignStart="@+id/stop1"
+        android:background="@drawable/stop" />
 
     <TextView
         android:id="@+id/song3"
@@ -72,19 +72,19 @@
     <Button
         android:id="@+id/play3"
         style="@style/plays"
-        android:background="@drawable/play"
         android:layout_alignBaseline="@+id/song3"
         android:layout_alignBottom="@+id/song3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="@drawable/play" />
 
     <Button
         android:id="@+id/stop3"
         style="@style/stops"
-        android:background="@drawable/stop"
-        android:layout_alignTop="@+id/song3"
         android:layout_alignLeft="@+id/stop2"
-        android:layout_alignStart="@+id/stop2" />
+        android:layout_alignStart="@+id/stop2"
+        android:layout_alignTop="@+id/song3"
+        android:background="@drawable/stop" />
 
     <TextView
         android:id="@+id/desc4"
