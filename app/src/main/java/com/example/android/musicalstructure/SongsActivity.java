@@ -33,6 +33,17 @@ public class SongsActivity extends AppCompatActivity {
                 mp.stop();
             }
         });
+
+    }
+
+    @Override
+        public void onBackPressed(){
+            super.onBackPressed();
+            if (mp != null) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
     }
 
 }
