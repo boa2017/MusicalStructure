@@ -30,28 +30,28 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/chrome</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColor">#ffff00</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="desc2">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">160dp</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColor">#ffff00</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="desc3">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColor">#ffff00</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="desc4">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColor">#ffff00</item>
         <item name="android:layout_marginTop">16dp</item>
         <item name="android:textStyle">bold</item>
     </style>
